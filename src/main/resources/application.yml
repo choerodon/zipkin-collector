@@ -1,0 +1,28 @@
+spring:
+  sleuth:
+    enabled: false
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: localhost:9092
+          zkNodes: localhost:2181
+eureka:
+  instance:
+    preferIpAddress: true
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 3
+  client:
+    registryFetchIntervalSeconds: 1
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
+zipkin:
+  storage:
+    type: elasticsearch
+    elasticsearch:
+      max-requests: 64
+      index: zipkin
+      index-shards: 3
+      index-replicas: 1
+      hosts: localhost:9200
+
