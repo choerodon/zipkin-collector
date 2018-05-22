@@ -1,14 +1,14 @@
-# choerodon-zipkin-collector
+# Zipkin-collector
 
-Zipkin Call chain collector.
+Zipkin call chain collector.
 Read the Zipkin call information from the Kafka, store the call information in the Elasticsearch, and facilitate the Zipkin front-end display.
 
 ## Feature
 
-Track the zipkin version for iteration.
+Track the Zipkin version for iteration.
 ## Requirements
 
- - The application receives messages from kafka and than insert these data into elasticsearch.
+ - The application receives messages from Kafka and than insert these data into Elasticsearch.
 
  - These data are targets of monitor system.
 
@@ -30,7 +30,7 @@ Make the monitoring data flow to Kafka.
 
 `helm install http://openchart.choerodon.com.cn/choerodon/devops/zipkin-collector --version=0.5.0`
 
-Version can be replaced, You can use the `--set env.open.foo_bar =foobar` to override the environment variables.
+`version` can be replaced. You can use the `--set env.open.FOO_BAR=foobar` to override the environment variables.
 
 ## Documentation
 
@@ -38,12 +38,12 @@ Replaceable variable：
 
 |           variable        |  definition  |
 | :-----------------------: | :----: |
-| env.open.ZIPKIN_ELASTICSEARCH_HOST | es path |
-| env.open.EUREKA_DEFAULT_ZONE | eureka path |
-| env.open.SPRING_CLOUD_STREAM_KAFKA_BINDER_BROKERS | kafka path |
-| env.open.SPRING_CLOUD_STREAM_KAFKA_BINDER_ZKNODES | zookeeper path |
-| env.open.ZIPKIN_STORAGE_ELASTICSEARCH_HOSTS | es path |
-| version | helm image version |
+| `env.open.ZIPKIN_ELASTICSEARCH_HOST` | elasticsearch path |
+| `env.open.EUREKA_DEFAULT_ZONE` | eureka path |
+| `env.open.SPRING_CLOUD_STREAM_KAFKA_BINDER_BROKERS` | kafka path |
+| `env.open.SPRING_CLOUD_STREAM_KAFKA_BINDER_ZKNODES` | zookeeper path |
+| `env.open.ZIPKIN_STORAGE_ELASTICSEARCH_HOSTS` | es path |
+| `version` | chart version in `helm install` command |
 
 
 ## Dependencies
