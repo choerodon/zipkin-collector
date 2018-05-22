@@ -28,7 +28,7 @@ Make the monitoring data flow to Kafka.
 
 ## Installation and Getting Started
 
-`helm install choerodon-aliyun/choerodon-zipkin-collector --version=0.5.0`
+`helm install http://openchart.choerodon.com.cn/choerodon/devops/zipkin-collector --version=0.5.0`
 
 Version can be replaced, You can use the `--set env.open.foo_bar =foobar` to override the environment variables.
 
