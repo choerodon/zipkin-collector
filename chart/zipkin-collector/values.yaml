@@ -25,10 +25,10 @@ service:
 
 metrics:
   path: /prometheus
-  label: zipkin-collector
+  label: spring-boot
 
 logs:
-  parser: zipkin-collector
+  parser: spring-boot
 
 resources: 
   # We usually recommend not to specify default resources and to leave this as a conscious
