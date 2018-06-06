@@ -38,7 +38,6 @@ Replaceable variable：
 
 |           variable        |  definition  |
 | :-----------------------: | :----: |
-| `env.open.ZIPKIN_ELASTICSEARCH_HOST` | elasticsearch path |
 | `env.open.EUREKA_DEFAULT_ZONE` | eureka path |
 | `env.open.SPRING_CLOUD_STREAM_KAFKA_BINDER_BROKERS` | kafka path |
 | `env.open.SPRING_CLOUD_STREAM_KAFKA_BINDER_ZKNODES` | zookeeper path |
