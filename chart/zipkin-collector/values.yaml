@@ -25,7 +25,7 @@ service:
 
 metrics:
   path: /prometheus
-  label: spring-boot
+  group: spring-boot
 
 logs:
   parser: spring-boot
