@@ -56,6 +56,9 @@ Replaceable variable：
 | spring-cloud-starter-stream-kafka | 1.2.1.RELEASE |
 | spring-cloud-stream-binder-kafka | 1.2.1.RELEASE |
 
+## Links
+
+* [Change Log](./CHANGELOG.zh-CN.md)
 
 ## Reporting Issues
 If you find any shortcomings or bugs, please describe them in the [issue](https://github.com/choerodon/choerodon/issues/new?template=issue_template.md).
