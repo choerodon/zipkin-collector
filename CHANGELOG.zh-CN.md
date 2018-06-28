@@ -6,7 +6,7 @@
 
 ### 修改
 
-- 升级choerodon-starter依赖版本为0.5.2.RELEASE。
+- 升级choerodon-starter依赖版本为0.5.3.RELEASE。
 
 ## [0.6.0] - 2018-06-08
 
